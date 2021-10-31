@@ -11,7 +11,6 @@ def process():
     session["name"] = request.form["name"]
     session["location"] = request.form["location"]
     session["language"] = request.form["language"]
-    session["comments"] = request.form["comments"]
     # these are now accessible on any route, anywhere in the project
     return redirect("/results")
 

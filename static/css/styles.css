@@ -1,0 +1,48 @@
+* {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#name {
+    border-color: black;
+    color: black;
+    padding: 5px;
+}
+
+.top-form {
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row; */
+    width: 100px;
+    margin-top: 10px;
+}
+
+form {
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-section input {
+    height: 60px;
+}
+
+#comment {
+    border-color: black;
+    color: black;
+    padding: 5px;
+}
+
+.submit {
+    background-color: cornflowerblue;
+}
